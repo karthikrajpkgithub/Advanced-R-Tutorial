@@ -62,3 +62,8 @@ F-statistic: 0.0342 on 1 and 8 DF,  p-value: 0.8579
 ### Output
        1 
 60.24115 
+### Prediction results plot with the help of the plot() function.
+```
+plot(y,x,col = "red",main = "Height and Weight Regression",abline(lm(y~x)),cex=1.4,pch = 16,xlab = "Weight in Kg",ylab = "Height in cm")
+```
+![Rplot](https://user-images.githubusercontent.com/65169267/112146681-dddc7280-8c01-11eb-98dd-2f348fd5111a.png)
