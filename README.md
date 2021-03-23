@@ -15,7 +15,9 @@ Mathematically, a linear relationship denotes a straight line, when plotted as a
 y = ax + b  
 ```
 > y is a response variable.
+> 
 > x is a predictor variable.
+> 
 > a and b are constants that are called the coefficients.
 ### Let's gather values of height and weight & create vectors x & y.
 ```
