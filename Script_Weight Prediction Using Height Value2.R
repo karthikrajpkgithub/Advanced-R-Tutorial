@@ -1,0 +1,10 @@
+x <- c(141, 134, 178, 156, 108, 116, 119, 143, 162, 130)  
+y <- c(62, 85, 56, 21, 47, 17, 76, 92, 62, 58)  
+relation_model <- lm(y~x)
+print(relation_model)
+print(summary(relation_model))
+ashok <- data.frame(x=175)
+weight_of_ashok <- predict(relation_model,ashok)
+print(weight_of_ashok)
+plot(y,x,col = "red",main = "Height and Weight Regression",abline(lm(y~x)),cex=1.4,pch = 16,xlab = "Weight in Kg",ylab = "Height in cm")
+
