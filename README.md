@@ -6,7 +6,7 @@ Linear regression is used to predict the value of an outcome variable y on the b
 
 Used to establish a linear relationship between the predictor and response variables.
 
-Predictor and response variables are related through an equation in which the exponent of both these variables are 1. 
+Predictor and response variables are related through an equation in which the exponent of both these variables is 1. 
 
 Mathematically, a linear relationship denotes a straight line, when plotted as a graph.
 
